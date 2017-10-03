@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower|Oswald');
+body{
+  margin:0;
+  padding: 0;
+  color:#444;
+}
+div{
+  font-size: 40px !important;
+  text-align: center !important;
+  font-weight: 500;
+  font-family: 'Indie Flower', cursive;
+  text-transform: capitalize;
+}
+img{
+  margin: 0 auto !important;
+  height: 200px !important;
+  border: 10px solid #eee !important;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px rgba(35, 35, 35, 0.5) !important;
+}
+
+h5{
+  font-size:40px !important;
+
+ }
+ p{
+   padding:20px;
+ }
+#fullpage{
+  height: 100vh;
+}
+#fullpage section{
+  height: 100vh;
+}
+#fullpage section h5{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#fullpage section:nth-child(1){
+  background-color: yellow;
+}
+
+#fullpage section:nth-child(2){
+  background-color: purple;
+  color:white;
+  font-size: 40px;
+}
+
+#fullpage section:nth-child(3){
+  background-color: #0f4;
+}
+
+#fullpage section:nth-child(4){
+  background-color: #333;
+  color:white;
+}
+
+#fullpage section:nth-child(5){
+  background-color: #a928ff;
+  color: white;
+}
+
+#fullpage section:nth-child(6){
+  background-color: #ffb600;
+  color: navy;
+}
+
+#fullpage section:nth-child(7){
+  background-color: #ff5f02;
+  color: white;
+}
+
+#fullpage section:nth-child(8){
+  background-color: #ff02cc;
+  color: white;
+}
+
+#fullpage section:nth-child(9){
+  background-color: #a5d;
+  color: white;
+}
+
+#fullpage section:nth-child(10){
+  background-color: #f88;
+}
+
+#fullpage section:nth-child(11){
+  background-color: #4f4;
+}
+
+#fullpage section:nth-child(12){
+  background-color: #972498;
+  color: white;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+}
+img{
+  height: 400px !important;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+
+  height: 400px !important;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+  height: 400px !important;
+}
