@@ -44,6 +44,10 @@ h5{
 }
 #fullpage section:nth-child(1){
   background-color: white;
+  font-size:40px !important;
+}
+section:nth-child(1) img{
+  height: 500px !important;
 }
 
 #fullpage section:nth-child(2){
