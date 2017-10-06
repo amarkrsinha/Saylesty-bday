@@ -1,0 +1,12 @@
+{
+  "name": "Saylesty-bday",
+  "description": "bday fun",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "express": "*"
+  }
+}
