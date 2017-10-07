@@ -57,7 +57,8 @@ section:nth-child(1) img{
 }
 
 #fullpage section:nth-child(3){
-  background-color: #0f4;
+  background-color: #496;
+  color:white;
 }
 
 #fullpage section:nth-child(4){
@@ -66,7 +67,7 @@ section:nth-child(1) img{
 }
 
 #fullpage section:nth-child(5){
-  background-color: #a928ff;
+  background-color: #927;
   color: white;
 }
 
